@@ -1,0 +1,48 @@
+User@User-PC MINGW64 ~/Desktop
+$ mkdir GitCli
+
+User@User-PC MINGW64 ~/Desktop
+$ mkdir ROOT
+
+User@User-PC MINGW64 ~/Desktop
+$ mv ROOT GitCli
+
+User@User-PC MINGW64 ~/Desktop
+$ cd \
+> GitCli/ROOT
+
+User@User-PC MINGW64 ~/Desktop/GitCli/ROOT
+$ touch file1.txt
+
+User@User-PC MINGW64 ~/Desktop/GitCli/ROOT
+$ touch file2.txt
+
+User@User-PC MINGW64 ~/Desktop/GitCli/ROOT
+$ mv file2.txt file2.doc
+
+User@User-PC MINGW64 ~/Desktop/GitCli/ROOT
+$ mkdir dir1
+
+User@User-PC MINGW64 ~/Desktop/GitCli/ROOT
+$ mkdir2
+bash: mkdir2: command not found
+
+User@User-PC MINGW64 ~/Desktop/GitCli/ROOT
+$ mkdir dir2
+
+User@User-PC MINGW64 ~/Desktop/GitCli/ROOT
+$ mkdir dir2.1
+
+User@User-PC MINGW64 ~/Desktop/GitCli/ROOT
+$ mv dir2.1 dir2
+
+User@User-PC MINGW64 ~/Desktop/GitCli/ROOT
+$ mv  file1.txt dir1
+
+User@User-PC MINGW64 ~/Desktop/GitCli/ROOT
+$ mv file2.doc dir1
+
+User@User-PC MINGW64 ~/Desktop/GitCli/ROOT
+$ cd ..
+
+User@User-PC MINGW64 ~/Desktop/GitCli
